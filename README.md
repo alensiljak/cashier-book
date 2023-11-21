@@ -3,6 +3,8 @@ Cashier documentation
 
 https://alensiljak.github.io/cashier-book/
 
+[![Deploy mdBook site to Pages](https://github.com/alensiljak/cashier-book/actions/workflows/mdbook.yml/badge.svg)](https://github.com/alensiljak/cashier-book/actions/workflows/mdbook.yml)
+
 # Introduction
 
 This is the source repository for the Cashier documentation book.
