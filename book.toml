@@ -7,3 +7,7 @@ title = "Cashier"
 
 #[build]
 #build-dir = "docs"
+
+[output.html]
+default-theme = "Ayu"
+preferred-dark-theme = "Ayu"
