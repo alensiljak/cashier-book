@@ -17,8 +17,8 @@
 
 ---
 
-- [Settings]()
-- [Synchronization]()
+- [Settings](settings.md)
+- [Synchronization](synchronization.md)
 - [Help]()
 - [About]()
 
