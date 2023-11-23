@@ -17,6 +17,7 @@
 
 ---
 
+- [Cloud Backpp](cloud-backup.md)
 - [Settings](settings.md)
 - [Synchronization](synchronization.md)
 - [Help]()
