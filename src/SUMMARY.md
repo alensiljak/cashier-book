@@ -6,7 +6,7 @@
 - [Favourites](favourites.md)
   - [Reorder]()
 - [Journal]()
-  - [Transaction Editor]()
+  - [Transaction Editor](transaction-editor.md)
 - [Scheduled Transactions]()
   - [Detail]()
   - [Edit]()
