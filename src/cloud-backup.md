@@ -19,3 +19,9 @@ rclone serve webdav <source> --allow-origin "*"
 where the `<source>` marks any source storage provider supported by RClone. This may be a folder in the local storage or any cloud storage provider. This functionality makes RClone a convenient proxy to a number of cloud storage providers out there.
 
 Using RClone as the storage proxy removes the need for Cashier to handle access credentials to your cloud provider as you can set that up with RClone separately. There is also no need to maintain the APIs for multiple cloud providers.
+
+### Tips
+
+Some tips to keep in mind.
+
+If the file listing and numbers are always the same, use `--dir-cache-time` parameter with a short duration, i.e. `10s`.
