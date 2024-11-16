@@ -7,10 +7,11 @@ https://alensiljak.github.io/cashier-book/
 
 # Introduction
 
-This is the source repository for the Cashier documentation book.
+This is the source repository for the Cashier documentation book. It describes the features / requirements for the Cashier app.
 
 # Development
 
+Install `mdbook` with ``.
 Preview the book by running `mdbook serve` in the root directory.
 
 Open http://localhost:3000 to view the content.
