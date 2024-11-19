@@ -3,6 +3,7 @@
 [Introduction](introduction.md)
 
 - [Home Screen](home.md)
+- [Navigation](navigation.md)
 - [Favourites](favourites.md)
   - [Reorder]()
 - [Journal]()
