@@ -2,12 +2,24 @@
 
 This is the screen for editing a Transaction record. It is used when creating a new Transaction or when editing an existing one.
 
+On the top there are three fields:
+- Date
+- Payee
+- Note
+
 ## Postings
 
 The Postings section lists the Postings attached to the Transaction.
 
-The buttons on top allow for operations on Postings:
-- Adding a new Posting
+It shows the Posting fields:
+- Account
+- Amount
+- Currency
+
+The amount sign (+/-) is shown as a button and can be changed with a click.
+
+The buttons on the top of the section allow for conducting the following operations on Postings:
+- adding a new Posting
 - reordering Postings
 - deleting Postings
 
