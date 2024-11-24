@@ -2,11 +2,11 @@
 
 The navigation points to the main sections of the application:
 
-- Home
+- [Home](home.md)
 - Journal
 - Favourites
-- Accounts
-- Payees
+- [Accounts](accounts.md)
+- [Payees](payees.md)
 - Asset Allocation
 - Scheduled Transactions
 - Cloud Backup
