@@ -19,7 +19,8 @@
 
 ---
 
-- [Cloud Backpp](cloud-backup.md)
+- [Backup](backup.md)
+- [Cloud Backup](cloud-backup.md)
 - [Settings](settings.md)
 - [Synchronization](synchronization.md)
 - [Export](export.md)
