@@ -2,6 +2,8 @@
 
 In the backup screen, you can back up all locally-created data into a file.
 
+![](backup.png)
+
 ## Create Backup
 
 By clicking the "Backup" button, all 
