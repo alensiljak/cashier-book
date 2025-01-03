@@ -2,7 +2,9 @@
 
 In the backup screen, you can back up all locally-created data into a file.
 
-![](img/backup.png)
+<center>
+<img src="img/backup.png" width="300px" />
+</center>
 
 ## Create Backup
 
