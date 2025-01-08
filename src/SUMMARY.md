@@ -12,7 +12,7 @@
   - [Detail]()
   - [Edit]()
   - [Calendar]()
-- [Asset Allocation]()
+- [Asset Allocation](asset-allocation.md)
   - [Asset Class Detail]()
 - [Accounts](accounts.md)
 - [Payees](payees.md)
