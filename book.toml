@@ -1,9 +1,10 @@
 [book]
-authors = ["Alen Šiljak"]
-language = "en"
-multilingual = false
-src = "src"
 title = "Cashier"
+authors = ["Alen Šiljak"]
+description = "Cashier documentation"
+src = "src"
+language = "en"
+text-direction = "ltr"
 
 #[build]
 #build-dir = "docs"

@@ -3,6 +3,7 @@
 This is the initial screen you will see in Cashier. It displays the most relevant information and the items that require your attention.
 
 The layout includes the navigation bar on the side and the main content area consisting of four cards showing:
+
 - favourite accounts
 - device journal
 - scheduled transactions
@@ -32,14 +33,9 @@ The color also indicates whether the due date is
 
 Tapping on the card will open [Scheduled Transactions](scheduled-transactions.md).
 
-## Synchronization Card
-
-Displays the last synchronization details. 
-There is a button that opens the [Synchronization screen](synchronization.md).
-
 ## Financial Forecast Card
 
-This card displays the forecast for the selected period. 
+This card displays the forecast for the selected period.
 
 On the settings screen, accessible through the cog button at the top, you can set the number of days for the forecast, as well as the accounts to be included in the forecast.
 

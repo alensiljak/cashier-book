@@ -2,6 +2,10 @@
 
 [Introduction](introduction.md)
 
+- [Set-up](setup.md)
+
+---
+
 - [Home Screen](home.md)
 - [Navigation](navigation.md)
 - [Favourites](favourites.md)
@@ -23,6 +27,7 @@
 - [Cloud Backup](cloud-backup.md)
 - [Settings](settings.md)
 - [Synchronization](synchronization.md)
+  - [File System Synchronization](file-system-sync.md)
 - [Export](export.md)
 - [Help]()
 - [About]()
