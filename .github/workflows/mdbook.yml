@@ -46,6 +46,7 @@ jobs:
         with:
           name: github-pages
           path: ./book
+          retention-days: 1
 
   # Deployment job
   deploy:
