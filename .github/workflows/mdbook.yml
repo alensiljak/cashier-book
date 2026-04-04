@@ -1,13 +1,9 @@
-# Sample workflow for building and deploying a mdBook site to GitHub Pages
-#
-# To get started with mdBook see: https://rust-lang.github.io/mdBook/index.html
-#
 name: Deploy mdBook site to Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: [$default-branch]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -19,9 +15,10 @@ permissions:
   id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   # Build job
@@ -30,7 +27,7 @@ jobs:
     env:
       MDBOOK_VERSION: 0.5.2
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install mdBook
         run: |
           curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
@@ -38,19 +35,13 @@ jobs:
           cargo install --version ${MDBOOK_VERSION} mdbook
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
       - name: Build with mdBook
         run: mdbook build
-      - name: Remove symlinks and hard links
-        run: |
-          find ./book -type l -delete
-          find ./book -type f -links +1 -exec sh -c 'cp "$1" "$1.tmp" && mv "$1.tmp" "$1"' _ {} \;
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
           path: ./book
-          retention-days: 1
 
   # Deployment job
   deploy:
@@ -62,4 +53,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
