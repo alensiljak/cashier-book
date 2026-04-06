@@ -1,6 +1,6 @@
-<div style="display: flex; justify-content: center;">
+<center>
     <img src="https://cashier.alensiljak.eu.org/icons/favicon-96x96.png" />
-</div>
+</center>
 
 # Introduction
 
