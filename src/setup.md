@@ -2,11 +2,12 @@
 
 ## Quick Setup
 
-To start using the application, it is necessary to perform an initial setup.
+To start using the application, you need to perform an initial setup.
 
-1. Set up the data source.
-2. Customization.
-3. Perform initial synchronization.
+1. Import your ledger files.
+2. Set customization options.
+
+These are performed in the [Settings](settings.md) screen.
 
 ## Data Source
 
