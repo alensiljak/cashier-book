@@ -1,8 +1,10 @@
 # File System Synchronization
 
+Synchronize Beancount book data with a folder in the local file system.
+
 ## Background
 
-To set-up the File System as the data source, you need to use a Chromium-based browser, which supports the File System API.
+To set-up the File System as the data source, it is recommended to use a Chromium-based browser, which supports the File System API.
 
 This provides direct access to the device file system, which allows reading your journal files.
 The journal is read during [Synchronization](synchronization.md) and the reports.
