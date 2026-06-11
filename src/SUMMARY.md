@@ -8,6 +8,7 @@
 
 - [Home Screen](home.md)
 - [Navigation](navigation.md)
+- [My Accounts](my-accounts.md)
 - [Favourites](favourites.md)
   - [Reorder]()
 - [Journal](journal.md)
@@ -31,6 +32,10 @@
   - [File System Synchronization](file-system-sync.md)
   - [WebDAV Backup](webdav-backup.md)
 - [Export](export.md)
+- [Utilities](utilities.md)
+  - [Calculator](calculator.md)
+  - [Currency Converter](currency-converter.md)
+  - [Quick Query](quick-query.md)
 - [Help]()
 - [About]()
 
