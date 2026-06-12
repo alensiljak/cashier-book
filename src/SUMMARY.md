@@ -19,6 +19,7 @@
   - [Calendar]()
 - [Accounts](accounts.md)
 - [Payees](payees.md)
+- [Quick Entry](quick-entry.md)
 
 ---
 
