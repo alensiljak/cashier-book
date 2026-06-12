@@ -38,3 +38,4 @@ mdbook serve --open
 ## Publishing
 
 There is a GitHub action specific for mdBook publishing, which builds the site and publishes to GitHub Pages.
+This runs on commits to the `main` branch or can be run manually.
