@@ -10,6 +10,13 @@ The Settings page is used to configure various application options and customiza
 <img src="img/settings.png" width="300" />
 </center>
 
+## General
+
+- Main currency
+- Remember last transaction for payees
+- Long Date format
+- Short Date format
+
 ## Restore
 
 If you have backed up your settings previously, you can restore them in the [Backup](backup.md) screen.

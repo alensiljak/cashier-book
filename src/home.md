@@ -33,6 +33,9 @@ The color also indicates whether the due date is
 
 Tapping on the card will open [Scheduled Transactions](scheduled-transactions.md).
 
+The dates are displayed using the Short Date preference.
+The amount is displayed in one line, with the Payee being truncated based on the width of the row.
+
 ## Financial Forecast Card
 
 This card displays the forecast for the selected period.
