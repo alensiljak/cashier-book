@@ -15,7 +15,7 @@
   - [Transaction Editor](transaction-editor.md)
 - [Scheduled Transactions](scheduled-transactions.md)
   - [Detail]()
-  - [Edit]()
+  - [Edit](scx-edit.md)
   - [Calendar]()
 - [Accounts](accounts.md)
 - [Payees](payees.md)
