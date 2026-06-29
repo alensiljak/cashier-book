@@ -43,3 +43,15 @@ This card displays the forecast for the selected period.
 On the settings screen, accessible through the cog button at the top, you can set the number of days for the forecast, as well as the accounts to be included in the forecast.
 
 The balances for the selected accounts are then projected for the period using the information from the Scheduled Transactions.
+
+## Ledger Validity
+
+Ledger validity is checked automatically and a warning icon is displayed in the toolbar if the ledger is not valid.
+Tapping the icon will display the issues identified in the book.
+
+## Data Files Update
+
+A background check is performed on the files in the OPFS store, to see if the files have been modified.
+If so, a refresh icon will show up in the toolbar, allowing the user to reload the Beancount files.
+
+This is also possible to do manually from the menu item "Check Files".
