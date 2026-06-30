@@ -27,6 +27,7 @@
   - [Asset Allocation](asset-allocation.md)
   - [Asset Class Detail]()
   - [Commodities](commodities.md)
+  - [Reports](reports.md)
 - [Data](data.md)
   - [Ledger Import](ledger-import.md)
   - [Backup](backup.md)
