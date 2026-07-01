@@ -1,3 +1,5 @@
+This repo has been archived. All the docs have been moved to Cashier Help system within the app.
+
 # cashier-book
 
 Cashier documentation
